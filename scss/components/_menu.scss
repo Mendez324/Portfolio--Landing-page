@@ -1,0 +1,27 @@
+.c-menu {
+    height: 100px;
+    width: 100%;
+        
+    .c-menu-navigation {
+        display: flex;
+        line-height: 30px;
+        .c-menu-list {
+            float:left;
+            align-items: center;
+            .c-menu-list-item {
+                color: $textcolor;
+                font-family: $primaryfont;
+                display: inline-block;
+                font-size: 20px;
+                margin: 15px;
+                border: 3px solid $textcolor;
+                border-radius: 15px;
+                padding: 3px 15px 3px 15px;
+            }
+
+        }
+    }
+
+
+
+}

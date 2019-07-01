@@ -58,4 +58,27 @@ html, body {
   height: 100%; }
 
 body {
-  background: #111111; }
+  background: #1a1919; }
+
+.c-menu-container {
+  height: 100px;
+  width: 100%; }
+  .c-menu-container .c-menu-navigation {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    line-height: 30px; }
+    .c-menu-container .c-menu-navigation .c-menu-list {
+      float: left;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
+      .c-menu-container .c-menu-navigation .c-menu-list .c-menu-list-item {
+        color: White;
+        font-family: "Ubuntu Condensed", sans-serif;
+        display: inline-block;
+        font-size: 20px;
+        margin: 15px;
+        border: 3px solid White;
+        border-radius: 15px;
+        padding: 3px 15px 3px 15px; }
