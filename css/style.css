@@ -60,20 +60,20 @@ html, body {
 body {
   background: #1a1919; }
 
-.c-menu-container {
-  height: 100px;
+.c-menu {
+  height: 70px;
   width: 100%; }
-  .c-menu-container .c-menu-navigation {
+  .c-menu .c-menu-navigation {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     line-height: 30px; }
-    .c-menu-container .c-menu-navigation .c-menu-list {
+    .c-menu .c-menu-navigation .c-menu-list {
       float: left;
       -webkit-box-align: center;
       -ms-flex-align: center;
       align-items: center; }
-      .c-menu-container .c-menu-navigation .c-menu-list .c-menu-list-item {
+      .c-menu .c-menu-navigation .c-menu-list .c-menu-list-item {
         color: White;
         font-family: "Ubuntu Condensed", sans-serif;
         display: inline-block;
@@ -82,3 +82,41 @@ body {
         border: 3px solid White;
         border-radius: 15px;
         padding: 3px 15px 3px 15px; }
+
+.c-hero {
+  background: white;
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .c-hero .c-hero-intro {
+    -ms-flex-preferred-size: 60%;
+    flex-basis: 60%;
+    height: 900px; }
+    .c-hero .c-hero-intro .c-hero-title {
+      font-family: "Ubuntu Condensed", sans-serif;
+      font-size: 64px;
+      text-align: center;
+      top: 30%;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+      position: relative;
+      margin: 20px; }
+    .c-hero .c-hero-intro .c-hero-subtext {
+      font-family: "Ubuntu Condensed", sans-serif;
+      font-size: 44px;
+      text-align: center;
+      top: 30%;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+      position: relative;
+      margin: 10px; }
+  .c-hero .c-hero-profile {
+    border-left: 2px solid black;
+    background: #232379;
+    -ms-flex-preferred-size: 40%;
+    flex-basis: 40%;
+    height: 900px; }
