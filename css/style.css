@@ -58,28 +58,28 @@ html, body {
   height: 100%; }
 
 body {
-  background: #1a1919; }
+  background: white; }
 
 .c-menu {
   height: 70px;
-  width: 100%; }
+  width: 100%;
+  border-bottom: 2px solid #4ea3db; }
   .c-menu .c-menu-navigation {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     line-height: 30px; }
     .c-menu .c-menu-navigation .c-menu-list {
-      float: left;
+      margin: 0 auto;
       -webkit-box-align: center;
       -ms-flex-align: center;
       align-items: center; }
       .c-menu .c-menu-navigation .c-menu-list .c-menu-list-item {
-        color: White;
+        color: Black;
         font-family: "Ubuntu Condensed", sans-serif;
         display: inline-block;
         font-size: 20px;
         margin: 15px;
-        border: 3px solid White;
         border-radius: 15px;
         padding: 3px 15px 3px 15px; }
 
@@ -93,9 +93,9 @@ body {
   .c-hero .c-hero-intro {
     -ms-flex-preferred-size: 60%;
     flex-basis: 60%;
-    height: 900px; }
+    height: 900px;
+    font-family: "Ubuntu Condensed", sans-serif; }
     .c-hero .c-hero-intro .c-hero-title {
-      font-family: "Ubuntu Condensed", sans-serif;
       font-size: 64px;
       text-align: center;
       top: 30%;
@@ -105,7 +105,6 @@ body {
       position: relative;
       margin: 20px; }
     .c-hero .c-hero-intro .c-hero-subtext {
-      font-family: "Ubuntu Condensed", sans-serif;
       font-size: 44px;
       text-align: center;
       top: 30%;
@@ -114,9 +113,76 @@ body {
       transform: translateY(-50%);
       position: relative;
       margin: 10px; }
+    .c-hero .c-hero-intro .c-hero-button {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      width: 200px;
+      border: 2px solid black;
+      margin: 0 auto;
+      top: 35%;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+      position: relative;
+      text-align: center;
+      padding: 12px 18px;
+      font-size: 0; }
+      .c-hero .c-hero-intro .c-hero-button:hover {
+        background: #4ea3db; }
+        .c-hero .c-hero-intro .c-hero-button:hover .material-icons {
+          -webkit-transform: rotate(90deg);
+          -ms-transform: rotate(90deg);
+          transform: rotate(90deg);
+          -webkit-transition: -webkit-transform 1s ease;
+          transition: -webkit-transform 1s ease;
+          -o-transition: transform 1s ease;
+          transition: transform 1s ease;
+          transition: transform 1s ease, -webkit-transform 1s ease; }
+    .c-hero .c-hero-intro .c-hero-button-text {
+      font-size: 25px;
+      text-decoration: none;
+      color: black; }
+    .c-hero .c-hero-intro .material-icons {
+      display: inline-block;
+      font-size: 40px; }
   .c-hero .c-hero-profile {
     border-left: 2px solid black;
-    background: #232379;
+    background: #4ea3db;
     -ms-flex-preferred-size: 40%;
     flex-basis: 40%;
     height: 900px; }
+    .c-hero .c-hero-profile .c-hero-about {
+      width: 100%;
+      height: 500px;
+      display: block;
+      margin-top: 30px; }
+      .c-hero .c-hero-profile .c-hero-about .c-hero-profile-imgcontainer {
+        width: 350px;
+        height: 350px;
+        border-radius: 50%;
+        background: white;
+        border: 2px solid black;
+        margin: 0 auto; }
+        .c-hero .c-hero-profile .c-hero-about .c-hero-profile-imgcontainer .profile-pic {
+          border-radius: 50%;
+          width: 98%;
+          height: auto; }
+    .c-hero .c-hero-profile .c-hero-skills-container {
+      height: 400px;
+      width: 100%;
+      font-family: "Ubuntu Condensed", sans-serif;
+      text-align: left;
+      margin-top: 10px; }
+      .c-hero .c-hero-profile .c-hero-skills-container .c-hero-me {
+        font-size: 38px;
+        font-weight: 900;
+        margin: 7px; }
+      .c-hero .c-hero-profile .c-hero-skills-container .c-hero-me-data {
+        display: block;
+        font-size: 30px;
+        font-weight: 900;
+        margin: 7px 0 7px 25px; }
