@@ -63,7 +63,8 @@ body {
 .c-menu {
   height: 70px;
   width: 100%;
-  border-bottom: 2px solid #4ea3db; }
+  border-bottom: 2px solid White;
+  background: #383434; }
   .c-menu .c-menu-navigation {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -75,7 +76,7 @@ body {
       -ms-flex-align: center;
       align-items: center; }
       .c-menu .c-menu-navigation .c-menu-list .c-menu-list-item {
-        color: Black;
+        color: White;
         font-family: "Ubuntu Condensed", sans-serif;
         display: inline-block;
         font-size: 20px;
@@ -84,17 +85,18 @@ body {
         padding: 3px 15px 3px 15px; }
 
 .c-hero {
-  background: white;
+  background: #383434;
   width: 100%;
   height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
   .c-hero .c-hero-intro {
-    -ms-flex-preferred-size: 60%;
-    flex-basis: 60%;
-    height: 900px;
-    font-family: "Ubuntu Condensed", sans-serif; }
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    height: 800px;
+    font-family: "Ubuntu Condensed", sans-serif;
+    color: White; }
     .c-hero .c-hero-intro .c-hero-title {
       font-size: 64px;
       text-align: center;
@@ -121,7 +123,7 @@ body {
       -ms-flex-align: center;
       align-items: center;
       width: 200px;
-      border: 2px solid black;
+      border: 2px solid White;
       margin: 0 auto;
       top: 35%;
       -webkit-transform: translateY(-50%);
@@ -130,9 +132,10 @@ body {
       position: relative;
       text-align: center;
       padding: 12px 18px;
-      font-size: 0; }
+      font-size: 0;
+      color: White; }
       .c-hero .c-hero-intro .c-hero-button:hover {
-        background: #4ea3db; }
+        background: #383434; }
         .c-hero .c-hero-intro .c-hero-button:hover .material-icons {
           -webkit-transform: rotate(90deg);
           -ms-transform: rotate(90deg);
@@ -145,44 +148,59 @@ body {
     .c-hero .c-hero-intro .c-hero-button-text {
       font-size: 25px;
       text-decoration: none;
-      color: black; }
+      color: White; }
     .c-hero .c-hero-intro .material-icons {
       display: inline-block;
-      font-size: 40px; }
-  .c-hero .c-hero-profile {
-    border-left: 2px solid black;
-    background: #4ea3db;
-    -ms-flex-preferred-size: 40%;
-    flex-basis: 40%;
-    height: 900px; }
-    .c-hero .c-hero-profile .c-hero-about {
-      width: 100%;
-      height: 500px;
+      font-size: 40px;
+      color: White; }
+
+.c-skills {
+  background: White;
+  height: 800px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  .c-skills .c-skills-profile {
+    border: 3px solid black;
+    -ms-flex-preferred-size: 20%;
+    flex-basis: 20%;
+    height: 650px;
+    width: auto;
+    background: #383434;
+    margin: 30px 40px 20px 20px;
+    border-radius: 15px; }
+    .c-skills .c-skills-profile .c-skills-about {
+      width: 300px;
+      height: 400px;
       display: block;
-      margin-top: 30px; }
-      .c-hero .c-hero-profile .c-hero-about .c-hero-profile-imgcontainer {
-        width: 350px;
-        height: 350px;
+      padding: 25px;
+      margin: 0 auto; }
+      .c-skills .c-skills-profile .c-skills-about .c-skills-profile-imgcontainer {
+        width: 250px;
+        height: 250px;
         border-radius: 50%;
-        background: white;
-        border: 2px solid black;
-        margin: 0 auto; }
-        .c-hero .c-hero-profile .c-hero-about .c-hero-profile-imgcontainer .profile-pic {
-          border-radius: 50%;
-          width: 98%;
+        background: white; }
+        .c-skills .c-skills-profile .c-skills-about .c-skills-profile-imgcontainer .profile-pic {
+          border-radius: 1%;
+          width: 100%;
           height: auto; }
-    .c-hero .c-hero-profile .c-hero-skills-container {
+    .c-skills .c-skills-profile .c-skills-container {
       height: 400px;
       width: 100%;
-      font-family: "Ubuntu Condensed", sans-serif;
-      text-align: left;
-      margin-top: 10px; }
-      .c-hero .c-hero-profile .c-hero-skills-container .c-hero-me {
-        font-size: 38px;
+      font-family: "Asap", sans-serif;
+      margin: 0 left;
+      margin-top: 20px;
+      color: White; }
+      .c-skills .c-skills-profile .c-skills-container .c-skills-me {
+        font-size: 30px;
         font-weight: 900;
         margin: 7px; }
-      .c-hero .c-hero-profile .c-hero-skills-container .c-hero-me-data {
+      .c-skills .c-skills-profile .c-skills-container .c-skills-me-data {
         display: block;
-        font-size: 30px;
+        font-size: 24px;
         font-weight: 900;
         margin: 7px 0 7px 25px; }
