@@ -3,6 +3,8 @@
     width: 100%;
     border-bottom: 2px solid $textcolor; 
     background: rgb(56, 52, 52); 
+    position: fixed;
+    z-index: 1;
     .c-menu-navigation {
         display: flex;
         line-height: 30px;

@@ -5,13 +5,13 @@
     display: flex;
     align-items: center;
     .c-skills-profile {
-        border: 3px solid black;
-        flex-basis: 20%;
+        border: 2px solid black;
         height: 650px;
         width: auto;
-        background: $secondarycolor;
-        margin: 30px 40px 20px 20px;
+        background: $textcolor;
+        margin: 30px 40px 20px 40px;
         border-radius: 15px;
+        float: left;
         .c-skills-about {
             width: 300px;
             height: 400px;
@@ -21,31 +21,30 @@
             .c-skills-profile-imgcontainer {
                 width: 250px;
                 height: 250px;
-                border-radius: 50%;
-                background: white;
+                background: $textcolor;
+                border: 2px solid black;
                 .profile-pic {
                     border-radius: 1%;
                     width: 100%;
                     height: auto;
-                    
                 }
             }
         }
         .c-skills-container {
             height: 400px;
             width: 100%;
-            font-family: $secondaryfont;
+            font-family: $primaryfont;
             margin: 0 left;
             margin-top: 20px;
-            color: $textcolor;
+            color: $primarycolor;
             .c-skills-me {
-                font-size: 30px;
+                font-size: 28px;
                 font-weight: 900;
                 margin: 7px;
             }
             .c-skills-me-data {
                 display: block;
-                font-size: 24px;
+                font-size: 22px;
                 font-weight: 900;
                 margin: 7px 0 7px 25px;;
             }
