@@ -4,6 +4,11 @@
     width: 100%;
     display: flex;
     align-items: center;
+    @include mq (0 ,768px) {
+        display: block;
+        position: relative;
+        margin: 0 auto;
+    }
     .c-skills-profile {
         border: 2px solid black;
         height: 650px;
