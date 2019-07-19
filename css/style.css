@@ -76,6 +76,53 @@ body {
     display: -ms-flexbox;
     display: flex;
     line-height: 30px; }
+    .c-menu .c-menu-navigation .burguer-menu {
+      width: 50px;
+      height: 50px;
+      margin: auto;
+      cursor: pointer;
+      -webkit-transition: 0.5s ease-in-out;
+      -o-transition: 0.5s ease-in-out;
+      transition: 0.5s ease-in-out; }
+      .c-menu .c-menu-navigation .burguer-menu--dash:nth-child(1) {
+        top: 8px;
+        position: relative; }
+      .c-menu .c-menu-navigation .burguer-menu--dash:nth-child(2) {
+        top: 16px;
+        position: relative; }
+      .c-menu .c-menu-navigation .burguer-menu--dash:nth-child(3) {
+        top: 24px;
+        position: relative; }
+      .c-menu .c-menu-navigation .burguer-menu--dash {
+        padding: 3px;
+        height: 2px;
+        border-radius: 20px;
+        width: 100%;
+        display: block;
+        background: white;
+        -webkit-transition: 0.25s ease-in-out;
+        -o-transition: 0.25s ease-in-out;
+        transition: 0.25s ease-in-out;
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+        opacity: 1;
+        left: 0;
+        transform: rotate(0deg);
+        transition: 0.25s ease-in-out; }
+      .c-menu .c-menu-navigation .burguer-menu.open--dash:nth-child(1) {
+        top: 24px;
+        -webkit-transform: rotate(135deg);
+        -ms-transform: rotate(135deg);
+        transform: rotate(135deg); }
+      .c-menu .c-menu-navigation .burguer-menu.open--dash:nth-child(2) {
+        left: -30px;
+        opacity: 0; }
+      .c-menu .c-menu-navigation .burguer-menu.open--dash:nth-child(3) {
+        top: 20px;
+        -webkit-transform: rotate(-135deg);
+        -ms-transform: rotate(-135deg);
+        transform: rotate(-135deg); }
     .c-menu .c-menu-navigation .c-menu-list {
       margin: 0 auto;
       -webkit-box-align: center;

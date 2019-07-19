@@ -12,6 +12,34 @@
     .c-menu-navigation {
         display: flex;
         line-height: 30px;
+        .burguer-menu {
+            width: 50px;
+            height: 50px;
+            margin: auto;
+            cursor: pointer;
+            transition: $duration * 2 $type;
+            @include dash-burguer-menu();
+            &--dash {
+                padding:3px;
+                height: 2px;
+                border-radius: 20px;
+                width: 100%;
+                display: block;
+                background: white;
+                transition: $duration $type;
+                transform: $spindefault;
+                opacity: 1;
+                left: 0;
+                transform: $spindefault;
+                transition: $duration $type;
+                
+              
+            }
+            &.open{
+                @include open-burguer-menu();
+            }
+            
+        }
         .c-menu-list {
             margin: 0 auto;
             align-items: center;

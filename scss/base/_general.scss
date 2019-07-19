@@ -4,6 +4,12 @@ $secondaryfont: 'Asap', sans-serif;
 $textcolor: White;
 $primarycolor: Black;
 $secondarycolor:rgb(56, 52, 52) ;
+// Variables spin
+$spindefault: rotate(0deg);
+$spinright: rotate(135deg);
+$spinleft: rotate(-135deg);
+$duration: .25s;
+$type: ease-in-out;
 
 
 body {
